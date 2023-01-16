@@ -2,8 +2,8 @@
 
 body
 {
-    background-color: #004E64;
-    color: #25A18E;
+    background-color: #4E6766;
+    color: #5AB1BB;
 }
 
 form {
@@ -20,6 +20,9 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
     background-color: #00A5CF;
     color: #7AE582;
+}
+a {
+    color: #A5C882;
 }
 
 /* Set a style for all buttons */
@@ -53,15 +56,15 @@ button:hover {
 .header {
     padding: 10px;
     text-align: center;
-    background: #e76f51;
-    color: #f4a261;
+    background: #A5C882;
+    color: #F7DD72;
     font-size: 30px;
 }
 
 hr
 {
     border-color: #2a9d8f;
-    border: 5px solid #2a9d8f;
+    border: 5px solid #1E152A;
     border-radius: 5px;
 }
 .navigationbar
