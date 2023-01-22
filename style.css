@@ -2,8 +2,8 @@
 
 body
 {
-    background-color: #E5E7E6;
-    color: #B80C09;
+    background-color: #537D8D;
+    color: #E5D352;
 }
 
 form {
@@ -12,38 +12,21 @@ form {
 
 
 a {
-    color: #6B2B06;
+    color: #D9E76C;
 }
-
-/* Set a style for all buttons */
-button {
-    background-color: #00A5CF;
-    color: #7AE582;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-    opacity: 0.8;
-}
-
 
 .header {
     padding: 10px;
     text-align: center;
-    background: #B7B5B3;
-    color: #141301;
+    background: #AC3931;
+    color: #E5D352;
     font-size: 30px;
 }
 
 hr
 {
-    border-color: #2a9d8f;
-    border: 5px solid #BFC0C0;
+    border-color: #482C3D;
+    border: 5px solid #482C3D;
     border-radius: 5px;
 }
 .navigationbar

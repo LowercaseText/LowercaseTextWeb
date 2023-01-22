@@ -46,7 +46,7 @@ footer p {
 
 body
 {
-    background-color: #FCF6B1;
+    background-color: #A9E5BB;
     color: #F7B32B;
 }
 
@@ -81,4 +81,14 @@ hr
     line-height: 0.25;
     color: #6B2B06;
 
+}
+.center-panel {
+  width: 30%; /* Adjust as needed */
+  margin: 0 auto; /* Centers the panel horizontally */
+  background-color: #FCF6B1; /* Adjust as needed */
+  padding: 70px; /* Adjust as needed */
+}
+
+.center-panel .content {
+  /* Additional styles for the content can go here */
 }
