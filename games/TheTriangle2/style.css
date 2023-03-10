@@ -62,13 +62,6 @@ a {
 
 
 
-header {
-    padding: 10px;
-    text-align: center;
-    background: #B7B5B3;
-    color: #141301;
-    font-size: 30px;
-}
 
 hr
 {
@@ -78,8 +71,8 @@ hr
 }
 .navigationbar
 {
-    line-height: 0.25;
-    color: #6B2B06;
+    line-height: 0.01;
+    color: #f72c25;
 
 }
 .center-panel {
@@ -91,4 +84,40 @@ hr
 
 .center-panel .content {
   /* Additional styles for the content can go here */
+}
+
+header {
+  background-color: #2d1e2f;
+  color: #f72c25;
+  font-size: 20px;
+    height: 80px;
+}
+nav {
+    padding: 2px; /* Adjust the padding as needed */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #2d1e2f;
 }
