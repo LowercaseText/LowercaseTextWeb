@@ -1,5 +1,5 @@
 # LowercaseText.github.io
-my cool ass website
+my cool website
 
 its not done yet
 
