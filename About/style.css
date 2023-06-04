@@ -6,6 +6,7 @@ body {
     background-color: #5BC0EB;
     font-family: Arial, Helvetica, sans-serif;
     color: #404E4D;
+
 }
 a {
     color: #404E4D;
@@ -21,12 +22,14 @@ header {
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-    float: left;
+
     width: 20%;
     height: 300px; /* only for demonstration, should be removed */
     background-color: #9BC53D;
     padding: 20px;
+
     border: 3px solid #404E4D;
+    float: left;
 }
 
 /* Style the list inside the menu */
@@ -39,17 +42,21 @@ section{
     margin: auto;
 
 
+
 }
 article {
-    float: left;
+    /*float: left;*/
     padding: 20px;
     width: 70%;
-
-    height: 3000px; /* only for demonstration, should be removed */
+    /*margin: auto;*/
+    height: 300px;  /*only for demonstration, should be removed */
     position: relative;
     left: 30px;
     border: 3px solid #404E4D;
     background-color: #FDE74C;
+    margin-right: 10px; /* Adjust the value as per your requirement */
+    margin-left: 20%;
+
 }
 
 
@@ -95,4 +102,8 @@ header li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+article + nav {
+    margin-right: 1%;
 }
